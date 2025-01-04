@@ -2,6 +2,7 @@ console.log("tufts proxy this is loaded");
    $(once('make-link-behavior', '#makeLinkButton', context)).each(function () {
     
         $(this).on('click', function() {
+            console.log("clicked");
             var oin=$('#edit-in');
             var oout=$('#edit-out');
             var intxt=oin.val();
