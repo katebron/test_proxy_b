@@ -1,6 +1,6 @@
-$(document).ready(function(){
-  $(once('make-link-behavior', '#makeLinkButton', context)).each(function () {
-    console.log("tufts proxy this is loaded");
+console.log("tufts proxy this is loaded");
+   $(once('make-link-behavior', '#makeLinkButton', context)).each(function () {
+    
         $(this).on('click', function() {
             var oin=$('#edit-in');
             var oout=$('#edit-out');
@@ -64,4 +64,3 @@ $(document).ready(function(){
           
    
   })
-});  
